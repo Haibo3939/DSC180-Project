@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/conll03/self_training/roberta_reinit0_begin900_period450_soft_hp5.9_50_1e-5/src" vcs="Git" />
+  </component>
+</project>

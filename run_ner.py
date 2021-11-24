@@ -380,30 +380,30 @@ def main():
     # Required parameters
     parser.add_argument(
         "--data_dir",
-        default=None,
+        default="../dataset/twitter_distant",
         type=str,
-        required=True,
+        required=False,
         help="The input data dir. Should contain the training files for the CoNLL-2003 NER task.",
     )
     parser.add_argument(
         "--model_type",
-        default=None,
+        default='roberta',
         type=str,
-        required=True,
+        required=False,
         help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()),
     )
     parser.add_argument(
         "--model_name_or_path",
-        default=None,
+        default='roberta-base',
         type=str,
-        required=True,
+        required=False,
         help="Path to pre-trained model or shortcut name selected in the list: " + ", ".join(ALL_MODELS),
     )
     parser.add_argument(
         "--output_dir",
-        default=None,
+        default="./outputs/test_ner",
         type=str,
-        required=True,
+        required=False,
         help="The output directory where the model predictions and checkpoints will be written.",
     )
 
